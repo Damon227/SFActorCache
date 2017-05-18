@@ -84,8 +84,6 @@
       <HintPath>..\packages\Microsoft.ServiceFabric.5.5.216\lib\net45\System.Fabric.Strings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.ServiceModel" />
     <Reference Include="System.ValueTuple, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.3.1\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
     </Reference>
@@ -106,10 +104,6 @@
     <ProjectReference Include="..\Credit.Kolibre.Foundation.Cache\Credit.Kolibre.Foundation.Cache.csproj">
       <Project>{0d17edf1-8493-42fb-920b-e2516a5a7d2f}</Project>
       <Name>Credit.Kolibre.Foundation.Cache</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Credit.Kolibre.Foundation\Credit.Kolibre.Foundation.csproj">
-      <Project>{e406a3d9-c3b1-4eae-bf27-787d3780de01}</Project>
-      <Name>Credit.Kolibre.Foundation</Name>
     </ProjectReference>
     <ProjectReference Include="..\SmartCacheActor.Interfaces\SmartCacheActor.Interfaces.csproj">
       <Project>{96E7EAA6-3B8F-4109-AFEB-99D2173C3DF1}</Project>
